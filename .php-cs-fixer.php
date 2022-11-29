@@ -238,7 +238,7 @@ $rules = new ArrayIterator([
  */
 return (static function (Traversable $rules, ?string $cacheDirectory = null): ConfigInterface {
     if (! $cacheDirectory) {
-        $cacheDirectory = __DIR__ . '/.cache';
+        $cacheDirectory = __DIR__ . '/.var/cache';
     }
 
     if (! file_exists($cacheDirectory) && ! mkdir($cacheDirectory, 0700) && ! is_dir($cacheDirectory)) {
