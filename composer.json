@@ -9,5 +9,30 @@
             "email": "contact@jaschavanaalst.nl"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~8.0||~8.1||~8.2",
+        "ext-phar": "*",
+        "ext-sodium": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "bamarni/composer-bin-plugin": true
+        }
+    },
+    "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.8"
+    },
+    "extra": {
+        "bin-dir": "bin",
+        "platform": {
+            "php": "8.1"
+        },
+        "platform-check": false,
+        "sort-packages": true,
+        "bamarni-bin": {
+            "bin-links": false,
+            "forward-command": false
+        }
+    }
 }
