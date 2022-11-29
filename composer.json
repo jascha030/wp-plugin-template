@@ -1,0 +1,13 @@
+{
+    "name": "jascha030/wp-plugin-template",
+    "description": "Template repository for WordPress plugin projects.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Jascha030",
+            "email": "contact@jaschavanaalst.nl"
+        }
+    ],
+    "minimum-stability": "stable"
+}
