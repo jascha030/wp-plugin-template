@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phive xmlns="https://phar.io/phive">
+  <phar name="php-cs-fixer" version="^3.13.0" installed="3.13.0" location="./tools/php-cs-fixer" copy="true"/>
+  <phar name="phpstan" version="^1.9.2" installed="1.9.2" location="./tools/phpstan" copy="true"/>
+  <phar name="humbug/box" version="^4.2.0" installed="4.2.0" location="./tools/box" copy="true"/>
+  <phar name="composer" version="^2.4.4" installed="2.4.4" location="./tools/composer" copy="true"/>
+</phive>
